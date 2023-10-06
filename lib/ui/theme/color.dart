@@ -1,0 +1,21 @@
+import 'package:flutter/material.dart';
+
+const lightButtonBackgroundColor = Color(0XFF5B005B);
+const darkButtonBackgroundColor = Color(0XFFD90AD9);
+const disableColor = Color(0XFFD7D7D7);
+const disableTextColor = Color(0XFF777777);
+const gradientSecondColor = Color(0XFF380038);
+const hintTextColor = Color(0xFFD6D6D6);
+const hintText2Color = Color(0xFF3A3A3A);
+const errorTextColor = Color(0xFFFF212E);
+const accentColor = Color(0XFFA50CA5);
+const greyColor = Color(0xFF79747E);
+const grey2Color = Color(0xFF575757);
+const shadowColor = Color(0x3F000000);
+const linkColor = Color(0xFF4E93FB);
+const selectItemColor = Color(0xFFA40CA4);
+const staticPageTileColor = Color(0xFFFEF7FF);
+const purpleThemeColor = Color(0xFF5B005B);
+const defaultChipColor = Color(0x19A40CA4);
+const greenTrueColor = Color(0xFF77DD77);
+const textFieldFillColor = Color(0xFFEFEFEF);
