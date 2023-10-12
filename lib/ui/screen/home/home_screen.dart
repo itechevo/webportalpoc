@@ -4,7 +4,6 @@ import 'package:go_router/go_router.dart';
 
 import '../../model/ui_action.dart';
 import '../../router/app_screen.dart';
-import '../../widget/user_item.dart';
 import 'home_controller.dart';
 
 class HomeScreen extends ConsumerStatefulWidget {
@@ -44,16 +43,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     });
 
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.onSecondary,
-      body: ListView.builder(
-          padding: const EdgeInsets.all(8),
-          itemCount: state.users.length,
-          itemBuilder: (BuildContext context, int index) {
-            return UserItem(
-              user: state.users[index],
-              onClickCallback: (user) {},
-            );
-          }),
-    );
+        backgroundColor: Theme.of(context).colorScheme.onSecondary,
+        body: Container());
   }
 }
